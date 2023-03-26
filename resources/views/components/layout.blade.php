@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
     @vite(['resources/css/app.css'])
     @vite(['resources/js/app.js'])
+    @livewireStyles
   </head>
   <body>
     <header class="header-bar mb-3">
@@ -87,5 +88,6 @@
       <script>
         $('[data-toggle="tooltip"]').tooltip()
       </script>
+      @livewireScripts
     </body>
   </html>
